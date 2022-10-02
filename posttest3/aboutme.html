@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playstation Game Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="images/logo.png" class="logo">
+            <h1>Playstation Game Store</h1>
+            <nav>
+                <ul id="menuList">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="">Console</a></li>
+                    <li><a href="">Accessories</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>Fazri Gading</h2>
+                <h3>A Machine Learning Developer</h3>
+                <p>Informatics 2020 - Universitas Mulawarman</p>
+                <h4>"Jika orang lain bisa, mengapa saya tidak?"</h4>
+                <a href="https://linktr.ee/fazrigading/">
+                    <button type="button">Follow Me<img src="images/arrow.png"></button>
+                </a>
+            </div>
+            <div class="col-3">
+                <img src="images/gading.jpg" class="gambar">
+            </div>
+        </div>
+        <div class="social-links">
+            <img src="images/fb.png">
+            <img src="images/tw.png">
+            <img src="images/ig.png">
+        </div>
+    </div>
+    
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if (menuList.style.maxHeight == "0px"){
+                menuList.style.maxHeight = "130px";
+            } else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+    <footer>
+        <div class="footer-logo">Copyright © Fazri Gading 2022</div>
+        <div class="footer-list">
+        <ul>
+            <li>2009106031</li>
+            <li>Informatika A 20</li>
+            <li>A Machine Learning Developer</li>
+        </ul>
+        </div>
+    </footer>
+</body>
+</html>
