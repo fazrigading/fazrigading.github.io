@@ -7,8 +7,8 @@
 .container{
     width: 100%;
     min-width: 100vh;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 8%;
+    padding-right: 8%;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -170,7 +170,7 @@ button:hover{
     margin: 20px;
     cursor: pointer;
 }
-/* @media only screen and (max-width:720px){
+@media only screen and (max-width:720px){
     nav ul{
         width: 100%;
         background: linear-gradient(#526bfb, #1c317c);
@@ -220,7 +220,7 @@ button:hover{
     .col-1 h3{
         font-size: 15px;
     }
-} */
+}
 
 footer{
     background-color: #1c317c;
@@ -233,7 +233,7 @@ footer{
 
 footer ul li{
     list-style: none;
-    /* display: inline-block; */
+    display: inline-block;
     margin-right: 30px;
 }
 
