@@ -1,6 +1,6 @@
 # Fazri Gading | Portfolio Source Code
 
-This repository contains the source code for my personal portfolio website, hosted at `[https://fazrigading.github.io/portfolio](https://fazrigading.github.io/portfolio)`.
+This repository contains the source code for my personal portfolio website, hosted at `[https://fazrigading.github.io/portfolio](https://fazrigading.github.io/portfolio).
 
 ---
 
@@ -8,7 +8,7 @@ This repository contains the source code for my personal portfolio website, host
 
 * **Frontend:** Vite, React, TypeScript, and Tailwind
 * **Hosting:** GitHub Pages
-* **Deployment Path:** `[https://fazrigading.github.io/portfolio](https://fazrigading.github.io/portfolio)`
+* **Deployment Path:** [https://fazrigading.github.io/portfolio](https://fazrigading.github.io/portfolio)
 
 ---
 
@@ -50,4 +50,4 @@ Once running, navigate to `http://localhost:8000` in your browser.
 
 ## Deployment Workflow
 
-This project utilizes GitHub Pages for distribution. Pushing changes directly to the `main` branch updates the live site.
+This project utilizes GitHub Pages for distribution. Pushing changes directly to the `master` branch updates the live site.
